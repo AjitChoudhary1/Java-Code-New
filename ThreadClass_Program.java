@@ -1,10 +1,10 @@
 package core_java_new;
-public class ThreadClass_Program 
+public class ThreadClass_Program
 {
-	
-	public static void main(String[] args) throws InterruptedException 
+
+	public static void main(String[] args) throws InterruptedException
 	{
-		
+
 		for(int i=1;i<=10;i++)
 		{
 		Thread.sleep(1000);
@@ -12,7 +12,7 @@ public class ThreadClass_Program
 		 Thread.sleep(3000);
 		 System.out.println(i);
 		}
-		
+
 	}
 
 }

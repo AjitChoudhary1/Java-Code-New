@@ -2,9 +2,9 @@ package core_java_new4;
 
 public class Exception_Handling
 {
-	       public static void main(String[] args) 
+	       public static void main(String[] args)
 	       {
-	    	   
+
 	    	     try
 	    	     {
 	    	        int a=1/0;
@@ -14,9 +14,9 @@ public class Exception_Handling
 	    	     {
 	    	    	 System.out.println("Handled the Exception");
 	    	     }
-	    	     
-	 //***********************************************************************************   	     
-	    	     
+
+	 //***********************************************************************************
+
 	    	     try
 	    	     {
 	    	        int a=1/1;                                       //try executed bcz exception not come
@@ -26,7 +26,7 @@ public class Exception_Handling
 	    	     {
 	    	    	 System.out.println("Handled the Exception");
 	    	     }
-	    	     
+
 		}
 
 }

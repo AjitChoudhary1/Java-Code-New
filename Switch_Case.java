@@ -1,7 +1,7 @@
 package core_java_new;
-public class Switch_Case 
+public class Switch_Case
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		switch(1)
 		{
@@ -19,9 +19,9 @@ public class Switch_Case
 			         break;
 		 default:
 			   System.out.println("Uhoh Press only 1, 2, 3, and 4 only ");
-		}       
+		}
 //************************************************************************************
-			   
+
 			   switch(44)
 				{
 				 case 1:
@@ -38,9 +38,9 @@ public class Switch_Case
 					          break;
 				 default:
 					   System.out.println("Uhoh Press only 1, 2, 3, and 4 only ");
-				        
+
 		         }
-		
+
 	}
 
 }

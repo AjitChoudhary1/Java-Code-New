@@ -12,10 +12,10 @@ public class Method_Final_Override_avoid extends Wifi
 	{
 		System.out.println("ajit8031");
 	}
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
-		
+
 		Method_Final_Override_avoid m1= new Method_Final_Override_avoid();
 		m1.passcode();
 		m1.passcode1();

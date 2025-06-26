@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class Scanner_Classes_Mthd
 {
-	public static void main(String[] args) 
+	@SuppressWarnings("unused")
+	public static void main(String[] args)
 	{
 		Scanner s1=new Scanner(System.in);
-		
+
 		    String name= s1.next();
 		    int a= s1.nextInt();
 		    double b= s1.nextDouble();
@@ -16,11 +17,11 @@ public class Scanner_Classes_Mthd
 		    byte e= s1.nextByte();
 		    short f= s1.nextShort();
 		    long g= s1.nextLong();
-		    
+
 		    s1.close();
-		    
-		    
-		
+
+
+
 	}
 
 }

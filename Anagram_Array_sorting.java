@@ -2,9 +2,9 @@ package core_java_new3;
 
 import java.util.Arrays;
 
-public class Anagram_Array_sorting 
+public class Anagram_Array_sorting
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		 String a="jat";
 		  String b="taj";
@@ -20,18 +20,18 @@ public class Anagram_Array_sorting
 		  char c2[]= b.toCharArray();
 		  System.out.println("Before sorting c1:- " +Arrays.toString(c1));
 		  System.out.println("Before sorting c2:- " +Arrays.toString(c2));
-		  
+
 		  Arrays.sort(c1);
 		  Arrays.sort(c2);
 		  System.out.println("After sorting c1:- " +Arrays.toString(c1));
 		  System.out.println("After sorting c2:- " +Arrays.toString(c2));
-		  
+
 		  boolean b1= Arrays.equals(c1, c2);
 		    System.out.println("Both c1 & c2 are equals:- "+b1);
-		  
-		
-		  
-		
+
+
+
+
 	}
 
 }

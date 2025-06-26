@@ -13,12 +13,12 @@ public class Supr_Cl_nonparaSttmnt  extends Google1
 		super();                                           //Explicitly written
 		System.out.println("constructor 2nd");
 	}
-	
-	  public static void main(String[] args) 
+
+	  public static void main(String[] args)
 	  {
 		    new Supr_Cl_nonparaSttmnt();
-		
+
 	}
-	
+
 
 }

@@ -1,7 +1,7 @@
 package core_java_new;
-public class Codsnl_Sttmnt_IfBlock 
+public class Codsnl_Sttmnt_IfBlock
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		int a=10;
 		int b=20;
@@ -30,7 +30,7 @@ public class Codsnl_Sttmnt_IfBlock
 		{
 			System.out.println("6");
 		}
-		
+
 	}
 
 }

@@ -8,9 +8,9 @@ public class AccsSpf_InPckge1
 		a1.sub();
 		a1.mul();
 		a1.div();               // we can access public, protected, def/pkg
-		
+
 		                           // Not access private
-		
+
 	}
 
 }

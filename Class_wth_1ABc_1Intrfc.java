@@ -8,7 +8,7 @@ abstract class Jat implements Jat1
 {
 	abstract void SchoolName();
 	abstract void Me();
-	
+
 	static void Activa()                        //Mlt Lvl Inh
 	{
 		System.out.println("110 6G");
@@ -29,7 +29,7 @@ public class Class_wth_1ABc_1Intrfc extends Jat
 		c1.Tehsil();
 		c1.SchoolName();
 		c1.Me();
-		
+
 	}
 	@Override
 	public void Gav() {

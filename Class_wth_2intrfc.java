@@ -48,7 +48,7 @@ public class Class_wth_2intrfc implements Family,Nanihal
 		// TODO Auto-generated method stub
 		System.out.println("Rj");
 	}
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		Class_wth_2intrfc c1=new Class_wth_2intrfc();
 		c1.Nani();
@@ -57,9 +57,9 @@ public class Class_wth_2intrfc implements Family,Nanihal
 		c1.Mom();
 		c1.Papa();
 		c1.Bhai();
-		
+
 	}
 
-	
+
 
 }

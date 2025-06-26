@@ -18,13 +18,13 @@ public class Supr_Cl_paraSttmnt2   extends supr_para2
 {
 	Supr_Cl_paraSttmnt2()
 	{
-		super("Ajit");                                            //para supr cl sttmnt    explicitly written 
+		super("Ajit");                                            //para supr cl sttmnt    explicitly written
 		System.out.println("constructor nonpara");
 	}
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
 		new Supr_Cl_paraSttmnt2();
-	}	
+	}
 
 }

@@ -1,5 +1,5 @@
 package core_java_new;
-public class StaticM_Para_NoPara 
+public class StaticM_Para_NoPara
 {
 	public static void village()
 	{
@@ -17,9 +17,9 @@ public class StaticM_Para_NoPara
 	{
 		 System.out.println("Rajasthan");
 	}
-	 
+
 //*************************************************************************
-	 
+
 	    public static void add(int a, int b)
 		{
 			System.out.println(a+b);
@@ -36,23 +36,23 @@ public class StaticM_Para_NoPara
 		{
 			 System.out.println(a/b);
 		}
-		 
-	
-	
-	public static void main(String[] args) 
+
+
+
+	public static void main(String[] args)
 	{
-		
+
 		village();
 		Tehsil();
 		login("Ajit@8031", "aj8@031");
 		State();
-		
+
 		add(15, 15);
 		sub(25, 14);
 		multi(11, 11);
 		divide(6, 6);
-		
-		
+
+
 	}
 
 }

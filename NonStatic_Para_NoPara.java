@@ -1,5 +1,5 @@
 package core_java_new;
-public class NonStatic_Para_NoPara 
+public class NonStatic_Para_NoPara
 {
 	public void village()
 	{
@@ -17,10 +17,10 @@ public class NonStatic_Para_NoPara
 	{
 		 System.out.println("Rajasthan");
 	}
-	 
+
 //******************************************************
-	 
-	 
+
+
 	    public void add(int a, int b)
 		{
 			System.out.println(a+b);
@@ -37,23 +37,23 @@ public class NonStatic_Para_NoPara
 		{
 			 System.out.println(a/b);
 		}
-		 
-	 
-	public static void main(String[] args) 
+
+
+	public static void main(String[] args)
 	{
-		
+
 		NonStatic_Para_NoPara n1=new NonStatic_Para_NoPara();
 		n1.village();
 		n1.Tehsil();
 		n1.Zipcode();
 		n1.State();
-		
+
 		n1.add(5, 5);
 		n1.sub(8, 2);
 		n1.multi(6.1, 5.1);
 		n1.divide(445, 44);
-		
-		
+
+
 	}
 
 }

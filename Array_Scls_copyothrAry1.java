@@ -3,7 +3,7 @@ package core_java_new2;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Array_Scls_copyothrAry1 
+public class Array_Scls_copyothrAry1
 {
 	public static void main(String[] args)                  //create array using scanner class copy 1 to another 2nd prgrm
 	{
@@ -17,16 +17,16 @@ public class Array_Scls_copyothrAry1
 		     }
 		      System.out.println("Input Array:- "+Arrays.toString(name));
 		      s1.close();
-		      
+
 		      String [] Address= new String[name.length];
 		       for(int j=0;j<=Address.length-1;j++)
 		       {
 		    	   Address[j]=name[j];
 		       }
 		       System.out.println("Output/copied Array:- "+Arrays.toString(Address));
-		     
-		     
-		     
+
+
+
 	}
 
 }

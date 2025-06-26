@@ -18,7 +18,7 @@ public class Multiple_Lvl_Inhby_Intrfce implements Nanihal,Family
 		System.out.println("Pinku");
 	}
 	@Override
-	public void Mom() 
+	public void Mom()
 	{
 		// TODO Auto-generated method stub
 		System.out.println("Rp");
@@ -32,21 +32,21 @@ public class Multiple_Lvl_Inhby_Intrfce implements Nanihal,Family
 	}
 
 	@Override
-	public void Bhai() 
+	public void Bhai()
 	{
 		// TODO Auto-generated method stub
 		System.out.println("Rj");
 	}
 
 	@Override
-	public void Nani() 
+	public void Nani()
 	{
 		// TODO Auto-generated method stub
 		System.out.println("Jij");
 	}
 
 	@Override
-	public void Mama() 
+	public void Mama()
 	{
 		// TODO Auto-generated method stub
 		System.out.println("Jr");
@@ -58,7 +58,7 @@ public class Multiple_Lvl_Inhby_Intrfce implements Nanihal,Family
 		// TODO Auto-generated method stub
 		System.out.println("Pr");
 	}
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		Aj();
 		Multiple_Lvl_Inhby_Intrfce m1=new Multiple_Lvl_Inhby_Intrfce();
@@ -69,9 +69,9 @@ public class Multiple_Lvl_Inhby_Intrfce implements Nanihal,Family
 		m1.Mama();
 		m1.MamaBhai();
 		Aj();
-		
+
 	}
 
-	
+
 
 }

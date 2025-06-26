@@ -12,17 +12,17 @@ public class Final_Keyword   extends super1
 	{
 		System.out.println("name and number");
 	}
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
-		
+
 		Final_Keyword f1=new Final_Keyword();
 		f1.add();
 		f1.add(26, "ajit");
-		
-		
-		
-		
+
+
+
+
 	}
 
 }

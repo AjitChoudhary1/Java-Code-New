@@ -5,15 +5,15 @@ import java.util.Set;
 
 public class Set_wth_HashSet
 {
-	 public static void main(String[] args) 
+	 public static void main(String[] args)
 	 {
-		  Set<String> s1= new HashSet<String>();    //Upcasting
-		      s1.add("Ajit");                                       //like this we can find all classes of set 
+		  Set<String> s1= new HashSet<>();    //Upcasting
+		      s1.add("Ajit");                                       //like this we can find all classes of set
 		      s1.add("Tatarwi");
-		      s1.add("Jayal");                                      // all methods same like collection 
+		      s1.add("Jayal");                                      // all methods same like collection
 		      s1.add("Choudhary");
 		        System.out.println(s1);
-	
+
 	}
 
 }

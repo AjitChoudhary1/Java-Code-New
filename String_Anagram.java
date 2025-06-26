@@ -5,7 +5,7 @@ public class String_Anagram
 	{
 		  String a="tea";
 		   String b="eat";
-		    
+
 		   if(a.length() !=b.length())
 		   {
 			   System.out.println("They are not anagram");
@@ -14,7 +14,7 @@ public class String_Anagram
 		   {
 			   System.out.println("They are anagram");
 		   }
-		
+
 	}
 
 }

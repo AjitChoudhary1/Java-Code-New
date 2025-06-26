@@ -5,19 +5,19 @@ public class StringBuffer_prgrm1
 	{
 		StringBuffer s1= new StringBuffer("Choudhary Sahab");
 		         System.out.println(s1.insert(15, " Ji"));
-		         
+
 		      System.out.println(s1.charAt(10));
-		
+
 		          s1.reverse();
 		          System.out.println(s1);
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
 	}
 
 }

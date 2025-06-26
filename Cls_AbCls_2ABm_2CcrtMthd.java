@@ -5,22 +5,24 @@ abstract class SecondAB
 	abstract void number();
 	static void village()
 	{
-		
+
 	}
 	void city()
 	{
-		
+
 	}
-	
+
 }
 public class Cls_AbCls_2ABm_2CcrtMthd  extends SecondAB
 {
-	void name() 
+	@Override
+	void name()
 	{
 		System.out.println("Aj Choudhary");
 	}
 
-	
+
+	@Override
 	void number()
 	{
 		System.out.println("8031");
@@ -29,24 +31,25 @@ public class Cls_AbCls_2ABm_2CcrtMthd  extends SecondAB
 	{
 		System.out.println("Tayri");
 	}
+	@Override
 	void city()
 	{
 		System.out.println("Jayal");
 	}
 
-	     public static void main(String[] args) 
+	     public static void main(String[] args)
 	     {
-	    	    
+
 	    	 Cls_AbCls_2ABm_2CcrtMthd c1=new Cls_AbCls_2ABm_2CcrtMthd();
 	    	 c1.name();
 	    	 c1.number();
 	    	 village();
 	    	 c1.city();
-	    	 
-	    	 
-			
+
+
+
 		}
 
-		
-		
+
+
 }

@@ -2,7 +2,7 @@ package core_java_new3;
 
 import java.util.Scanner;
 
-public class Array_AverageVAlue1 
+public class Array_AverageVAlue1
 {
 	public static void main(String[] args)                            //avrage value of float array using scnr cls
 	{
@@ -21,7 +21,7 @@ public class Array_AverageVAlue1
 	       average=sum/age.length;
 	       System.out.println("Average of the array is:-> "+average);
 	s1.close();
-		
+
 	}
 
 }

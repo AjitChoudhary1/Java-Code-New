@@ -8,16 +8,18 @@ package core_java_new2;
  }
 public class Method_Overriding    extends Amazon
 {
-	    void login()
+	    @Override
+		void login()
 	    {
-	    	System.out.println("login by email id");       
+	    	System.out.println("login by email id");
 	    }
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
 		   Method_Overriding m1 =new Method_Overriding();
 		   m1.login();
-		
+
+
 	}
 
 }

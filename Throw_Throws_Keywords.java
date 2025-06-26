@@ -4,12 +4,12 @@ public class Throw_Throws_Keywords                           //throws declare an
 {
 	   public static void main(String[] args) throws NullPointerException
 	   {
-		       
-		   throw new NullPointerException("Sorry your cell is empty");        
-		   
-		   
-		   
-		
+
+		   throw new NullPointerException("Sorry your cell is empty");
+
+
+
+
 	}
 
 }

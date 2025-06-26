@@ -11,7 +11,7 @@ public class Array_Equals_Scls
 		   System.out.println("Enter size of Array:- ");
 		    double[] laptopsale= new double[s1.nextInt()];
 		    double mobilesale[]= new double[laptopsale.length];
-		    
+
 		    for(int i=0;i<=laptopsale.length-1;i++)
 		    {
 		    	System.out.println("Enter the value of laptopsale at index:- "+i);
@@ -22,9 +22,9 @@ public class Array_Equals_Scls
 		    System.out.println("Sale of laptops:-> "+Arrays.toString(laptopsale));
 		    System.out.println("Sale of mobiles:-> "+Arrays.toString(mobilesale));
 		    s1.close();
-		    
+
 		    boolean b1= Arrays.equals(laptopsale, mobilesale);
-		    if(b1==true)
+		    if(b1)
 		    {
 		    	System.out.println("Both arrays are equals");
 		    }
@@ -32,9 +32,9 @@ public class Array_Equals_Scls
 		    {
 		    	System.out.println("Arrays are not equals");
 		    }
-		    
-		    
-		    
+
+
+
 	}
 
 }

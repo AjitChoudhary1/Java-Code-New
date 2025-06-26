@@ -1,5 +1,5 @@
 package core_java_new;
-public class Arithmatic_Operators 
+public class Arithmatic_Operators
 {
 	static void add()
 	{
@@ -36,16 +36,16 @@ public class Arithmatic_Operators
 		int mod=a%b;
 		System.out.println(mod);
 	}
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
 		add();
 		sub();
 		multi();
 		divide();
 		modu();
-		
-		
+
+
 	}
 
 }

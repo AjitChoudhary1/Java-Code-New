@@ -1,7 +1,7 @@
 package core_java_new;
-public class Print_Name 
+public class Print_Name
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		System.out.println("Ajit Choudhary");
 		System.out.println("Rupa Devi");
@@ -9,7 +9,7 @@ public class Print_Name
 		System.out.println("Richhpal Jat");
 		System.out.println("Divanshu Choudhary");
 		System.out.println("Manisha Gopi");
-		
+
 	}
 
 }

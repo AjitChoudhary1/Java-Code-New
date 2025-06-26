@@ -1,5 +1,5 @@
 package core_java_new;
-public class Constructors 
+public class Constructors
 {
 	Constructors()
 	{
@@ -9,12 +9,13 @@ public class Constructors
 	{
 		System.out.println("para");
 	}
-	
-	
-	public static void main(String[] args) 
+
+
+	public static void main(String[] args)
 	{
+		@SuppressWarnings("unused")
 		Constructors c1=new Constructors();      // 1syntax creating object
-		new Constructors(1, 2);                      // 2syntax 
+		new Constructors(1, 2);                      // 2syntax
 	}
 
 }
